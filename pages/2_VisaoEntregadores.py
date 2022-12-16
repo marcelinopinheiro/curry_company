@@ -82,7 +82,6 @@ df = clean_code(df)
 # Sidebar
 st.header('Marketplace - Visão Entregadores')
 
-#image_path = 'Dev/logo.png'
 image = Image.open('logo.png')
 st.sidebar.image(image, width=120)
 
